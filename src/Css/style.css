@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+body{
+    background-color: #fff;
+    width: 100vw;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 10dvh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.form{
+    position: absolute;
+    top: 15dvh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #eee;
+    padding: 20px;
+    max-width: 1000px;
+    width: 55vw;
+}
+
+.pfp{
+    width: 100%;
+    height: 30%;
+    margin-top: 15px;
+}
+
+.bold-text{
+    color: #000;
+    font-size: 1.5vw;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.tab{
+    text-indent: 20px;
+}
+
+.small-text{
+    font-family: 'Lato', sans-serif;
+    margin: 15px 0;
+    font-size: 1vw;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    margin: 20px 0;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+}
+
+table tr th{
+    background-color: #dedede;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 3px solid #aaa;
+}
+
+table tr th:nth-child(1){
+    width: 60%;
+}
+
+table tr td{
+    border-bottom: 3px solid #aaa;
+}
+
+@media screen and (orientation:portrait) {
+
+    .form{
+        width: 70vw;
+    }
+
+    .top{
+        font-size: 5vw;
+    }
+
+    .bold-text{
+        font-size: 5vw;
+    }
+
+    .small-text{
+        font-size: 3vw;
+    }
+
+    table{
+        font-size: 2.3vw;
+    }
+}
